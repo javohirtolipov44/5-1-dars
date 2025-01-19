@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Avatar 2",
+    "year": 2022,
+    "rating": 8.5,
+    "genre": "fantasy",
+    "country": "USA",
+    "duration": 180
+  },
+  {
+    "id": 2,
+    "title": "Avatar",
+    "year": 2009,
+    "rating": 7.9,
+    "genre": "fantasy",
+    "country": "USA",
+    "duration": 162
+  },
+  {
+    "id": 3,
+    "title": "Shaytanat",
+    "year": 1999,
+    "rating": 8.5,
+    "genre": "kriminal",
+    "country": "UZB",
+    "duration": 109
+  },
+  {
+    "id": 4,
+    "title": "Bloodshot",
+    "year": 2020,
+    "rating": 5.7,
+    "genre": "fantasy",
+    "country": "USA",
+    "duration": 109
+  },
+  {
+    "id": 5,
+    "title": "Inception",
+    "year": 2010,
+    "rating": 8.8,
+    "genre": "sci-fi",
+    "country": "USA",
+    "duration": 148
+  },
+  {
+    "id": 6,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "rating": 9.0,
+    "genre": "action",
+    "country": "USA",
+    "duration": 152
+  },
+  {
+    "id": 7,
+    "title": "Titanic",
+    "year": 1997,
+    "rating": 7.8,
+    "genre": "drama",
+    "country": "USA",
+    "duration": 195
+  },
+  {
+    "id": 8,
+    "title": "The Matrix",
+    "year": 1999,
+    "rating": 8.7,
+    "genre": "sci-fi",
+    "country": "USA",
+    "duration": 136
+  },
+  {
+    "id": 9,
+    "title": "Parasite",
+    "year": 2019,
+    "rating": 8.6,
+    "genre": "thriller",
+    "country": "KOR",
+    "duration": 132
+  },
+  {
+    "id": 10,
+    "title": "Gladiator",
+    "year": 2000,
+    "rating": 8.5,
+    "genre": "action",
+    "country": "USA",
+    "duration": 155
+  }
+]
