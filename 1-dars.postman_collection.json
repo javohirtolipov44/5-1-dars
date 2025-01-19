@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "2847f213-65ab-41e0-8705-fe5cc17d416a",
+		"name": "1-dars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "14374179"
+	},
+	"item": [
+		{
+			"name": "add_movie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Bloodshot\",\r\n    \"year\": 2020,\r\n    \"rating\": 5.7,\r\n    \"genre\": \"fantasy\",\r\n    \"country\": \"USA\",\r\n    \"duration\": 109\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:4000/api/movie"
+			},
+			"response": []
+		},
+		{
+			"name": "all_movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:4000/api/movies/top?limit=5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies",
+						"top"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_movies_by_genre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:4000/api/movies/genre/action"
+			},
+			"response": []
+		},
+		{
+			"name": "get_movies_by_year",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:4000/api/movies/year?from=2009&to=2023",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies",
+						"year"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "2009"
+						},
+						{
+							"key": "to",
+							"value": "2023"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_movies_by_country",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get_movies_by_duration",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:4000/api/movies/duration?time=109",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies",
+						"duration"
+					],
+					"query": [
+						{
+							"key": "time",
+							"value": "109"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search_movies",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
